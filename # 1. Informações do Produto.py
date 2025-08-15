@@ -1,9 +1,9 @@
-# 1. Solicita ao usuário a altura e a largura do retângulo
-altura = float(input("Digite a altura do retângulo (em metros): "))
-largura = float(input("Digite a largura do retângulo (em metros): "))
+# 1. Declaração das variáveis
+nome_produto = "Tesoura"
+preco_produto = 2.50
+quantidade_estoque = 100
 
-# 2. Calcula a área
-area = altura * largura
-
-# 3. Exibe o resultado com unidades
-print(f"A área do retângulo é de {area} metros quadrados.")
+# 2. Exibição das informações do produto
+print("Produto:", nome_produto)
+print(f"Preço: R$ {preco_produto:.2f}")
+print(f"Quantidade em estoque: {quantidade_estoque} unidades")
